@@ -1,0 +1,52 @@
+{
+  "name": "sauce-test-runner",
+  "description": "Node module for running tests using Sauce Labs. Supports QUnit, Jasmine and Mocha tests. Cloned from https://github.com/bytbil/sauce-test-runner",
+  "version": "0.2.0",
+  "author": {
+    "name": "Component Kitchen",
+    "email": "info@component.kitchen"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/componentkitchen/sauce-test-runner",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/componentkitchen/sauce-test-runner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/componentkitchen/sauce-test-runner/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/componentkitchen/sauce-test-runner/blob/develop/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=0.6",
+    "npm": ">=1.2.12"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "lodash": "~3.7.0",
+    "q": "~1.3.0",
+    "requestretry": "~1.2.2",
+    "sauce-connect-tunnel": "componentkitchen/sauce-connect-tunnel"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-util": "^3.0.8"
+  },
+  "keywords": [
+    "saucelabs",
+    "test",
+    "jasmine",
+    "mocha",
+    "qunit"
+  ]
+}
